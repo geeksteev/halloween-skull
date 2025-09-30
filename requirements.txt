@@ -2,14 +2,24 @@
 # Raspberry Pi 4 with Python 3.9+
 
 # Core Libraries
-numpy>=1.21.0
-RPi.GPIO>=0.7.1
+numpy
+RPi.GPIO
 
 # Camera and Computer Vision
-picamera2>=0.3.12
-opencv-python>=4.8.0
-libcamera>=0.0.5
+picamera2
+rpi-libcamera
+opencv-python
 
 # Display (SPI)
-spidev>=3.6
-Pillow>=9.0.0
+spidev
+Pillow
+
+# LED Control (DotStar)
+adafruit-circuitpython-dotstar
+adafruit-blinka
+
+# Audio
+#pyalsaaudio            Installed via apt
+
+# System utilities
+psutil
