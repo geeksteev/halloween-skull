@@ -1,0 +1,15 @@
+# Requirements for Three-Eyed Skull Halloween Decoration
+# Raspberry Pi 4 with Python 3.9+
+
+# Core Libraries
+numpy>=1.21.0
+RPi.GPIO>=0.7.1
+
+# Camera and Computer Vision
+picamera2>=0.3.12
+opencv-python>=4.8.0
+libcamera>=0.0.5
+
+# Display (SPI)
+spidev>=3.6
+Pillow>=9.0.0
